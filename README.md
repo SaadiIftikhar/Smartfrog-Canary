@@ -1,6 +1,6 @@
 # Smartfrog&Canary
 
-This repository contains Playwright tests for the Expo https://expo.dev/ React-Native website.
+This repository contains the two Practical Part algorithms and one Theoretical Part word file.
 
 ## Installation
 
@@ -32,7 +32,7 @@ python --version
 ```bash
 git clone https://github.com/SaadiIftikhar/Smartfrog-Canary.git
 ```
-Note: The folder you run this command in, Git will make the project folder in that.
+Note: Git will create project folder in the directory you run this command in.
 
 2. Navigate to the Project Directory:
 
@@ -66,13 +66,39 @@ Once the setup is done you will be able to
 ```bash
 python alphanumeric_sort.py
 ```
+Note: It will ask you for input value to use for the alphanumeric sorting. Also you can type 'exit' to end the program.
 
-2. Run algorithm file for file manager using
+2. Run algorithm file for file archiver using
 
 ```bash
 python file_archiver.py
 ```
+Notes: 
 
-## Videos Of Test Runs Through UI
+1: A tmp folder will be created in Smartfrog-Canary folder if not presenet.
+
+2: You will need to add files to the tmp folder yourself.
+
+3: The unique archive file will be added in the main Smartfrog-Canary folder using the current timestamp (YYYYMMDD_HHMMSS). So names will be like 'files_20250125_022815.tar.gz'
 
 
+
+## Pictures Of Algorithm Runs
+
+1: alphanumeric_sort.py
+
+![Image](https://github.com/user-attachments/assets/b1a0d778-7e1b-44c9-8ccb-4e55cd92b5a4)
+
+2: file_archiver.py
+
+-- Constant monitering of created tmp folder
+
+![Image](https://github.com/user-attachments/assets/206f2d35-2e35-439e-becf-069b6e81fb23)
+
+-- Printing of archived file names when 10 or more files are present in folder (it will only archieve the first 10)
+
+![Image](https://github.com/user-attachments/assets/31cf3bed-ec02-46a0-a460-d1aa0b743f03)
+
+-- Making of `files.tar.gz` file
+
+![Image](https://github.com/user-attachments/assets/64fa0ef6-ea70-48f0-8e1d-105c09141c1f)
