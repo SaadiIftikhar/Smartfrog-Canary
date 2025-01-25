@@ -20,9 +20,15 @@ def create_archive_name():
 def archive_files(files_to_archive):
     """Create an archive from the specified files in the 'tmp' folder."""
     archive_name = create_archive_name()
+    print(f"Archiving the following files:")
+    # Print each file name on a new line
+    for file in files_to_archive:
+        print(file)
+    
     with tarfile.open(archive_name, "w:gz") as tar:
         for file in files_to_archive:
             tar.add(os.path.join("tmp", file), arcname=file)
+    
     # Remove archived files after archiving
     for file in files_to_archive:
         os.remove(os.path.join("tmp", file))
