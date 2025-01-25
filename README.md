@@ -4,81 +4,74 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 
 ## Installation
 
-### Git
+### 1: Git
 
 1. Download and install Git from the official website: https://git-scm.com/downloads.
 2. Verify the installation by running `git --version` in your terminal. This should print the installed Git version.
 3. You can also download files directly from github repository https://github.com/SaadiIftikhar/Smartfrog-Canary.git.
 
-### Node.js and npm
+### 2: Download and Install Python
 
-1. Download and install Node.js `Node.js 18+` from the official website: https://nodejs.org/
-2. npm (Node Package Manager) will be bundled with your Node.js installation. Verify the installation by running `npm -v` in your terminal. This should print the installed npm version.
-
-## Setting Up Playwright
-
-1. Clone this repository using Git:
+1. Visit the official Python website (https://www.python.org/) and download the latest version
+2. During installation, check the box that says "Add Python to PATH".
+3. Verify installation by opening a terminal or command prompt and typing:
 
 ```bash
-git clone https://github.com/SaadiIftikhar/Mercari.git
+python --version
+```
+
+### 3: Download and Install VSCode (Optional)
+
+1. Visit the VSCode website (https://code.visualstudio.com/) and download the latest version.
+2. Install and open VSCode.
+
+## Setting Up Project
+
+1. Clone this repository using Git (If zip not downloaded directly):
+
+```bash
+git clone https://github.com/SaadiIftikhar/Smartfrog-Canary.git
 ```
 
 2. Navigate to the Project Directory:
 
 ```bash
-cd Mercari
+cd Smartfrog-Canary
 ```
+Note: Cloning with Git sets the folder name as "Smartfrog-Canary," while downloading the zip sets it as "Smartfrog-Canary-main." Update commands accordingly. Extract the zip file before use.
 
-3. Install Playwright
+
+3. Create a Virtual Environment
+
+Run the following command to create a virtual environment:
 
 ```bash
-npm init playwright@latest
+python -m venv env
 ```
-It will ask the following
-  * Do you want to use TypeScript or JavaScript? (Select JavaScript)
-  * Where to put your end-to-end tests? (Enter value = tests)
-  * Add a GitHub Actions workflow? (Select False)
-  * Install Playwright browsers (can be done manually via 'npx playwright install')? (Select True)
-  * Then it will ask you that some files already exists. Do you want to override it? (Select false for all)
-  * Delete 'example.spec.js' file from tests folder (Optional) 
-  * You are all set :)
 
+4. Activate the Virtual Environment
 
-## Running Tests
-Once you are in the Mercari directory, you will be able to run these tests
-
-1. Running tests in headless format
+Run the following command to create a virtual environment:
 
 ```bash
-npx playwright test --reporter=line
+env\Scripts\activate
 ```
 
-2. Running tests through UI
+## Running Algorithm Files
+Once the setup is done you will be able to 
+
+1. Run algorithm file for alphanumeric sortting using
 
 ```bash
-npx playwright test --ui
+python alphanumeric_sort.py
 ```
 
-3. Report can be generated using
+2. Run algorithm file for file manager using
 
 ```bash
-npx playwright test --reporter=html
+python file_manager.py
 ```
-
-4. Report can be viewed using 
-```bash
-npx playwright show-report
-```
-
-The report can also be found in the playwright-report folder, the report file name will be index.html
 
 ## Videos Of Test Runs Through UI
-
-
-
-## Generated Report Example
-
-  ![Image](https://github.com/user-attachments/assets/9944e587-b83d-414e-a24e-24631b92f5d4)
-
 
 
