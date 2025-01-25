@@ -4,7 +4,7 @@ This repository includes two Practical Part algorithms and one Theoretical Part 
 
 1: Theoretical Part: The Word `.docx` document contains the test plan.
 
-2: Practical Part: The setup for the algorithms is provided below.
+2: Practical Part: The setup for the algorithms `alphanumeric_sort.py` and `file_archiver.py` is provided below.
 
 ## Installation
 
