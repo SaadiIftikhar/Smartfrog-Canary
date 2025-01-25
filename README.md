@@ -20,7 +20,7 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 python --version
 ```
 
-### 3: Download and Install VSCode (Optional)
+### 3: Download and Install VSCode
 
 1. Visit the VSCode website (https://code.visualstudio.com/) and download the latest version.
 2. Install and open VSCode.
@@ -32,6 +32,7 @@ python --version
 ```bash
 git clone https://github.com/SaadiIftikhar/Smartfrog-Canary.git
 ```
+Note: The folder you run this command in, Git will make the project folder in that.
 
 2. Navigate to the Project Directory:
 
@@ -69,7 +70,7 @@ python alphanumeric_sort.py
 2. Run algorithm file for file manager using
 
 ```bash
-python file_manager.py
+python file_archiver.py
 ```
 
 ## Videos Of Test Runs Through UI
