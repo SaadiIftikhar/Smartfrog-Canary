@@ -4,7 +4,7 @@ This repository contains the two Practical Part algorithms and one Theoretical P
 
 1: Theoretical Part word file contains the test plan.
 
-2: For the Practical Part algorithms setup is mentioned below.
+2: For the Practical Part algorithms, setup is mentioned below.
 
 ## Installation
 
