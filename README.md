@@ -2,6 +2,10 @@
 
 This repository contains the two Practical Part algorithms and one Theoretical Part word file.
 
+1: Theoretical Part word file can be downloaded separately.
+
+2: For the Practical Part algorithms setup is mentioned below.
+
 ## Installation
 
 ### 1: Git
