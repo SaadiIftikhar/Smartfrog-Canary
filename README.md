@@ -105,11 +105,11 @@ Notes:
 
 ## Overview of Design Decisions and Trade-offs
 
-Below text outlines the design decisions and trade-offs made during the implementation of the **File Sorter** and **File Archiver** scripts.
+Below text outlines the design decisions and trade-offs made during the implementation of the **Alphanumeric Sorter** and **File Archiver** scripts.
 
 ---
 
-**File Sorter: Alphanumeric Sort**
+**Text Sorter: Alphanumeric Sort**
 
 **1. User Input for Sorting**
 - **Decision:** The script prompts the user to input a string for sorting instead of hardcoding an example.
