@@ -1,19 +1,31 @@
 import re
 
-def alphanumeric_sort(input_str):
-    # Extract numbers and treat them as integers
-    numbers = sorted(re.findall(r'\d+', input_str), key=int)
+def alphanumeric_sort(input_string):
+    # Separate numbers, lowercase, uppercase, and other characters
+    numbers = re.findall(r'\d+', input_string)
+    lowercase = [ch for ch in input_string if ch.islower()]
+    uppercase = [ch for ch in input_string if ch.isupper()]
+    others = [ch for ch in input_string if not ch.isalnum()]
 
-    # Extract lowercase, uppercase, and other characters
-    lower_chars = sorted(filter(str.islower, input_str))
-    upper_chars = sorted(filter(str.isupper, input_str))
-    others = sorted(filter(lambda x: not x.isalnum(), input_str))
+    # Sort each group
+    sorted_numbers = sorted(numbers, key=int)
+    sorted_lowercase = sorted(lowercase)
+    sorted_uppercase = sorted(uppercase)
+    sorted_others = sorted(others)
 
-    # Combine the sorted components
-    result = ''.join(numbers) + ''.join(lower_chars) + ''.join(upper_chars) + ''.join(others)
+    # Combine results
+    result = ''.join(sorted_numbers + sorted_lowercase + sorted_uppercase + sorted_others)
     return result
 
-
 if __name__ == "__main__":
-    input_str = input("Enter a string to sort: ")
-    print(f"Sorted string: {alphanumeric_sort(input_str)}")
+    print("Welcome to the Alphanumeric Sorter!")
+    while True:
+        user_input = input("Enter a string to sort (or type 'exit' to quit): ").strip()
+        if user_input.lower() == 'exit':
+            print("Exiting the program. Goodbye!")
+            break
+        if not user_input:
+            print("Input cannot be empty. Please try again.")
+            continue
+        sorted_result = alphanumeric_sort(user_input)
+        print(f"Sorted Output: {sorted_result}")
