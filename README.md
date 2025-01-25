@@ -48,15 +48,11 @@ Note: Cloning with Git sets the folder name as "Smartfrog-Canary," while downloa
 
 3. Create a Virtual Environment
 
-Run the following command to create a virtual environment:
-
 ```bash
 python -m venv env
 ```
 
 4. Activate the Virtual Environment
-
-Run the following command to create a virtual environment:
 
 ```bash
 env\Scripts\activate
