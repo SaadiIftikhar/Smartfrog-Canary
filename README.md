@@ -1,4 +1,4 @@
-# Smartfrog&Canary
+# Smartfrog & Canary
 
 This repository contains the two Practical Part algorithms and one Theoretical Part word file.
 
@@ -8,7 +8,7 @@ This repository contains the two Practical Part algorithms and one Theoretical P
 
 1. Download and install Git from the official website: https://git-scm.com/downloads.
 2. Verify the installation by running `git --version` in your terminal. This should print the installed Git version.
-3. You can also download files directly from github repository https://github.com/SaadiIftikhar/Smartfrog-Canary.git.
+3. You can also download files directly from GitHub repository https://github.com/SaadiIftikhar/Smartfrog-Canary.git.
 
 ### 2: Download and Install Python
 
@@ -27,7 +27,7 @@ python --version
 
 ## Setting Up Project
 
-1. Clone this repository using Git (If zip not downloaded directly):
+1. Clone this repository using Git (If the zip is not downloaded directly.):
 
 ```bash
 git clone https://github.com/SaadiIftikhar/Smartfrog-Canary.git
@@ -61,7 +61,7 @@ env\Scripts\activate
 ## Running Algorithm Files
 Once the setup is done you will be able to 
 
-1. Run algorithm file for alphanumeric sortting using
+1. Run algorithm file for alphanumeric sorting using
 
 ```bash
 python alphanumeric_sort.py
@@ -75,7 +75,7 @@ python file_archiver.py
 ```
 Notes: 
 
-1: A tmp folder will be created in Smartfrog-Canary folder if not presenet.
+1: A tmp folder will be created in Smartfrog-Canary folder if not present.
 
 2: You will need to add files to the tmp folder yourself.
 
@@ -91,11 +91,11 @@ Notes:
 
 2: file_archiver.py
 
--- Constant monitering of created tmp folder
+-- Constant monitoring of created tmp folder
 
 ![Image](https://github.com/user-attachments/assets/206f2d35-2e35-439e-becf-069b6e81fb23)
 
--- Printing of archived file names when 10 or more files are present in folder (it will only archieve the first 10)
+-- Printing of archived file names when 10 or more files are present in folder (it will only archive the first 10)
 
 ![Image](https://github.com/user-attachments/assets/31cf3bed-ec02-46a0-a460-d1aa0b743f03)
 
