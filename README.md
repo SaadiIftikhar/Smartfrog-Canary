@@ -2,7 +2,7 @@
 
 This repository includes two Practical Part algorithms and one Theoretical Part Word document.
 
-1: Theoretical Part: The Word(.docx) document contains the test plan.
+1: Theoretical Part: The Word `.docx` document contains the test plan.
 
 2: Practical Part: The setup for the algorithms is provided below.
 
