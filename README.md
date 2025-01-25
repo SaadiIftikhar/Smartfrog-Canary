@@ -8,7 +8,7 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 
 1. Download and install Git from the official website: https://git-scm.com/downloads.
 2. Verify the installation by running `git --version` in your terminal. This should print the installed Git version.
-3. You can also download files directly from github repository https://github.com/SaadiIftikhar/Mercari.git.
+3. You can also download files directly from github repository https://github.com/SaadiIftikhar/Smartfrog-Canary.git.
 
 ### Node.js and npm
 
