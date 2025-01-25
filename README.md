@@ -24,7 +24,7 @@ This repository contains the two Practical Part algorithms and one Theoretical P
 python --version
 ```
 
-### 3: Download and Install VSCode (Optional as you can run the command through commands prompt)
+### 3: Download and Install VSCode (Optional as you can run the commands through command prompt)
 
 1. Visit the VSCode website (https://code.visualstudio.com/) and download the latest version.
 2. Install and open VSCode.
