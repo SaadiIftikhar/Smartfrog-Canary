@@ -1,15 +1,6 @@
-# Mercari Playwright Tests
+# Smartfrog&Canary
 
 This repository contains Playwright tests for the Expo https://expo.dev/ React-Native website.
-
-## System requirements / Prerequisites
-
-* Git
-* Node.js 18+
-* Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
-* macOS 13 Ventura, or later.
-* Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
-
 
 ## Installation
 
