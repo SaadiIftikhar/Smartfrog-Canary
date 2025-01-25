@@ -38,7 +38,7 @@ if __name__ == "__main__":
             print(f"Found {len(files_in_tmp)} files, archiving the first 10...")
             # Archive the first 10 files
             archive_files(files_in_tmp[:10])
-            print("Files archived. Resetting folder...")
+            print("Files collected and archived. Resetting folder...")
         elif len(files_in_tmp) > 0:
             print(f"Files in 'tmp': {len(files_in_tmp)}/10")
         else:
